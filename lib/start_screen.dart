@@ -11,18 +11,16 @@ class StartScreen extends StatelessWidget {
         children: [
           Image.asset("assets/images/quiz-logo.png", width: 300),
           const SizedBox(height: 80),
-          Text("Hayko", style: TextStyle(fontSize: 42, color: Colors.black87)),
+          Text(
+            "Pink Floyd",
+            style: TextStyle(fontSize: 42, color: Colors.black87),
+          ),
           const SizedBox(height: 80),
-          ElevatedButton(
+          ElevatedButton.icon(
             onPressed: () {},
-            child: const Text(
-              "Start Quiz",
-              style: TextStyle(
-                fontSize: 54,
-                decorationColor: Colors.white70,
-                color: Colors.black87,
-              ),
-            ),
+            style: ElevatedButton.styleFrom(foregroundColor: Colors.black87),
+            icon: Icon(Icons.arrow_right_alt),
+            label: const Text("Start Quiz"),
           ),
         ],
       ),
