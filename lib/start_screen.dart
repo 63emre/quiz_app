@@ -11,10 +11,12 @@ class StartScreen extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          /*Opacity(
+          /* 
+          Opacity(
             opacity: 0.92,
             child: Image.asset("assets/images/quiz-logo.png", width: 300),
-          ), avoid Opacity widget */
+          ), avoid Opacity widget 
+          */
           Image.asset(
             "assets/images/quiz-logo.png",
             color: const Color.fromARGB(255, 0, 0, 0),
