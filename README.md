@@ -1,16 +1,66 @@
-# quiz_app
+# Pink Floyd Quiz App
 
-A new Flutter project.
+An interactive quiz application focused on Pink Floyd, designed specifically for tablet devices. Test your knowledge about one of the most influential rock bands in history!
+
+## Features
+
+- 📱 Tablet-optimized UI design
+- 🎵 Comprehensive Pink Floyd questions
+- 🎨 Beautiful, responsive interface
+- 📊 Instant score feedback
+- 🔄 Question randomization
+- 📈 Detailed results summary
+
+## Technical Details
+
+This Flutter application implements:
+
+- Stateful widget management
+- Custom UI components
+- Responsive layouts for tablet screens
+- Question shuffling algorithm
+- Score tracking system
+- Modern Material Design
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK
+- Dart SDK
+- Android Studio or VS Code
+- A tablet device or emulator
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/63emre/quiz_app.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd quiz_app
+   ```
+
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+4. Run the app:
+   ```bash
+   flutter run
+   ```
+
+## Usage
+
+1. Launch the app
+2. Press "Start Quiz" to begin
+3. Answer questions about Pink Floyd
+4. View your results at the end
+5. Restart the quiz to try again
+
+
+
+

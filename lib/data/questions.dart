@@ -3,43 +3,34 @@ import 'package:quiz_app/models/questions.dart';
 //In List the first answer is the correct one
 
 const questions = [
-  QuizQuestion('What are the main building blocks of Flutter UIs?', [
-    'Widgets',
-    'Components',
-    'Blocks',
-    'Functions',
-  ]),
-  QuizQuestion('How are Flutter UIs built?', [
-    'By combining widgets in code',
-    'By combining widgets in a visual editor',
-    'By defining widgets in config files',
-    'By using XCode for iOS and Android Studio for Android',
-  ]),
-  QuizQuestion('What\'s the purpose of a StatefulWidget?', [
-    'Update UI as data changes',
-    'Update data as UI changes',
-    'Ignore data changes',
-    'Render UI that does not depend on data',
+  QuizQuestion(
+    'Which Pink Floyd album features the iconic "prism and rainbow" cover art?',
+    ['The Dark Side of the Moon', 'The Wall', 'Wish You Were Here', 'Animals'],
+  ),
+  QuizQuestion('Who was the original lead singer of Pink Floyd?', [
+    'Syd Barrett',
+    'Roger Waters',
+    'David Gilmour',
+    'Nick Mason',
   ]),
   QuizQuestion(
-    'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
-    [
-      'StatelessWidget',
-      'StatefulWidget',
-      'Both are equally good',
-      'None of the above',
-    ],
+    'Which Pink Floyd song contains the famous line "We don\'t need no education"?',
+    ['Another Brick in the Wall (Part 2)', 'Comfortably Numb', 'Money', 'Time'],
   ),
-  QuizQuestion('What happens if you change data in a StatelessWidget?', [
-    'The UI is not updated',
-    'The UI is updated',
-    'The closest StatefulWidget is updated',
-    'Any nested StatefulWidgets are updated',
+  QuizQuestion('What year was Pink Floyd formed?', [
+    '1965',
+    '1967',
+    '1963',
+    '1970',
   ]),
-  QuizQuestion('How should you update data inside of StatefulWidgets?', [
-    'By calling setState()',
-    'By calling updateData()',
-    'By calling updateUI()',
-    'By calling updateState()',
+  QuizQuestion(
+    'Which album features a cover with a handshake between two men on fire?',
+    ['Wish You Were Here', 'Meddle', 'The Division Bell', 'The Final Cut'],
+  ),
+  QuizQuestion('Who composed the iconic guitar solo in "Comfortably Numb"?', [
+    'David Gilmour',
+    'Roger Waters',
+    'Syd Barrett',
+    'Richard Wright',
   ]),
 ];

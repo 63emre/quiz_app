@@ -1,5 +1,4 @@
 import 'dart:math';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 import 'answer_button.dart';
 import 'data/questions.dart';
@@ -39,7 +38,7 @@ class _QuestionScreens extends State<QuestionsScreens> {
           children: [
             Text(
               currentQ.text,
-              style: GoogleFonts.poppins(
+              style: const TextStyle(
                 color: Colors.black87,
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
@@ -48,11 +47,14 @@ class _QuestionScreens extends State<QuestionsScreens> {
             ),
             const SizedBox(height: 40),
             ...currentQ.getShuffledAnswers().map((answer) {
-              return AnswerButton(
-                answerText: answer,
-                onTap: () {
-                  answerQuestion(answer);
-                },
+              return Padding(
+                padding: const EdgeInsets.symmetric(vertical: 5),
+                child: AnswerButton(
+                  answerText: answer,
+                  onTap: () {
+                    answerQuestion(answer);
+                  },
+                ),
               );
             }),
             const SizedBox(height: 40),
